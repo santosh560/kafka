@@ -1,0 +1,13 @@
+<properties>
+
+	<property name="kafka.messaging.cluster">
+		<default>kafkaidc03-dev1.idc1.level3.com:9092,kafkaidc02-dev1.idc1.level3.com:9092,kafkaidc01-dev1.idc1.level3.com:9092</default>
+		<production>kafkaidc05-env1.idc1.level3.com:9092,kafkaidc04-env1.idc1.level3.com:9092,kafkaidc03-env1.idc1.level3.com:9092,kafkaidc02-env1.idc1.level3.com:9092,kafkaidc01-env1.idc1.level3.com:9092</production>
+	</property>
+
+	<property name="kafka.zoo.keeper.cluster">
+		<default>kafkaidc03-dev1.idc1.level3.com:2181,kafkaidc02-dev1.idc1.level3.com:2181,kafkaidc01-dev1.idc1.level3.com:2181</default>
+		<production>kafkaidc05-env1.idc1.level3.com:2181,kafkaidc04-env1.idc1.level3.com:2181,kafkaidc03-env1.idc1.level3.com:2181,kafkaidc02-env1.idc1.level3.com:2181,kafkaidc01-env1.idc1.level3.com:2181</production>
+	</property>
+
+</properties>
